@@ -7,7 +7,7 @@ export default class NotificationsViewer extends React.Component {
 
     this.state = {
       count: -1
-    }
+    } 
   }
 
   async componentDidMount () {
