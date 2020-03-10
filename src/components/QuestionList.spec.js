@@ -12,7 +12,7 @@ describe('The Question List', ()=>{
     afterAll(()=>{
         console.log("after All");        
     })
-    it.only("should display a list of items", ()=>{
+    it("should display a list of items", ()=>{
         expect(40+2).toEqual(42)
     })
     it("should display a list of lovers", ()=>{

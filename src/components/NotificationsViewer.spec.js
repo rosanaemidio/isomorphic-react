@@ -16,13 +16,13 @@ const notificationService = require('../services/NotificationsService').default;
 notificationService.default = jest.fn();
 
 describe('The notification viewer', () => {
-
+  
   beforeAll(() => {
     notificationService.default.mockClear();
     notificationService.__setCount(42);
   });
 
-  // it('pass', () => {});
+  // ('pass', () => {});
 
   it('should display the correct number of notifications', async() => {
     const tree = renderer.create(<NotificationsViewer />);
